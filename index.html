@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" >
+  <link rel="stylesheet" type="text/css" href="./css/style.css"/>  
+  <title>lab 2</title>
+</head> 
+<body>
+    <header>
+        <div class="nav nav-pills nav-fill">
+            <a href="index.html" class="logo nav-item">
+                <img class="img-fluid" src="src/img/Logo-csharp.png" alt="Logo-csharp">
+            </a>
+            <h1 class="nav-item">Лабораторная № 2</h1>
+            <div class="buttons nav-item">
+              <button type="button" class="btn btn-primary" id="liveToastBtn">Загрузить</button>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+      <div class="row align-items-stretch">
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="card  h-100" style="width: 18rem;" data-bs-trigger="hover focus" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="PHP">
+              <img src="src/img/Logo-php.png" class="card-img-top rounded" alt="...">
+              <div class="card-body">
+                <h5 class="card-title  text-center">Logo-php</h5>
+                <p class="card-text" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="PHP" data-bs-text="В настоящее время поддерживается подавляющим большинством хостинг-провайдеров и является одним из лидеров среди языков, применяющихся для создания динамических веб-сайтов.">Скриптовый язык общего назначения, интенсивно применяемый для разработки веб-приложений.</p>
+              
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="card  h-100" style="width: 18rem;"data-bs-trigger="hover focus" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="C#">
+              <img src="src/img/Logo-csharp.png" class="card-img-top rounded" alt="...">
+              <div class="card-body">
+                <h5 class="card-title  text-center">Logo-csharp</h5>
+                <p class="card-text"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="C#" data-bs-text=" Разработан в 1998—2001 годах группой инженеров компании Microsoft под руководством Андерса Хейлсберга и Скотта Вильтаумота как язык разработки приложений для платформы Microsoft .NET Framework. Впоследствии был стандартизирован как ECMA-334 и ISO/IEC 23270.">Объектно-ориентированный язык программирования.</p>
+          
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="card  h-100" style="width: 18rem;" data-bs-trigger="hover focus" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Python">
+              <img src="src/img/Logo-python.png" class="card-img-top rounded" alt="...">
+              <div class="card-body">
+                <h5 class="card-title  text-center">Logo-python</h5>
+                <p class="card-text"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Python" data-bs-text="Ориентирован на повышение производительности разработчика, читаемости кода и его качества, а также на обеспечение переносимости написанных на нём программ.">Высокоуровневый язык программирования общего назначения с динамической строгой типизацией и автоматическим управлением памятью. </p>
+                
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="row align-items-stretch">
+        <div class="col-lg-4 d-flex align-items-stretch">
+          <div class="card  h-100" style="width: 18rem;" data-bs-trigger="hover focus" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="C++">
+            <img src="src/img/Logo-с++.png" class="card-img-top rounded" alt="...">
+            <div class="card-body">
+              <h5 class="card-title  text-center">Logo-с++</h5>
+              <p class="card-text"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="C++" data-bs-text="Поддерживает такие парадигмы программирования, как процедурное программирование, объектно-ориентированное программирование, обобщённое программирование.">Компилируемый, статически типизированный язык программирования общего назначения. </p>
+            
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex align-items-stretch">
+          <div class="card  h-100" style="width: 18rem;" data-bs-trigger="hover focus" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Java">
+            <img src="src/img/Logo-Java.png" class="card-img-top rounded" alt="...">
+            <div class="card-body">
+              <h5 class="card-title  text-center">Logo-Java</h5>
+              <p class="card-text"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Java" data-bs-text=" Разработка ведётся сообществом, организованным через Java Community Process; язык и основные реализующие его технологии распространяются по лицензии GPL.">Строго типизированный объектно-ориентированный язык программирования общего назначения, разработанный компанией Sun Microsystems.</p>
+     
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex align-items-stretch">
+
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div id="footer"><p>&copy; Елизавета Маева</p></div>
+    </footer>
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+      <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <img src="src/img/Logo-csharp.png" class="rounded me-2 min_img" >
+          <strong class="me-auto">Внимание</strong>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Закрыть"></button>
+        </div>
+        <div class="toast-body">
+          На текущий момент этот функционал недоступен.
+        </div>
+      </div>      
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Подробная информация</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label"></label>
+            </div>
+            <div class="mb-3">
+              <p class="form-control" id="message-text"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+      </div>
+    </div>
+  <script src="./js/jquery-3.4.1.min.js"></script>
+  <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>

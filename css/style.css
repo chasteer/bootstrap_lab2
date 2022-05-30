@@ -1,0 +1,98 @@
+@charset "UTF-8";
+body {
+  background-color: ghostwhite;
+  width: 1000px;
+  margin: auto;
+  top: auto;
+}
+
+header {
+  border-bottom: 1px solid #222222;
+  left: 0;
+  top: 0;
+  /* Нижний угол */
+  background: ghostwhite;
+  /* Цвет фона */
+  width: 1000px;
+  /* Ширина слоя */
+  padding-top: 20px;
+}
+header .logo {
+  max-width: 50px;
+  max-height: 50px;
+}
+header .logo img {
+  margin-left: 5px;
+  width: 50px;
+  height: 50px;
+}
+header .menu_top {
+  list-style-type: none;
+}
+header .menu_top > li {
+  display: inline-block;
+  margin-right: 645px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #7f5539;
+}
+header .buttons #liveToastBtn {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  background-color: #e6ccb2;
+  border: none;
+  padding: 9px 24px;
+}
+header .buttons #liveToastBtn:hover {
+  background-color: #ddb892;
+}
+
+.min_img {
+  width: 15px;
+}
+
+.card img {
+  width: 28%;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+}
+
+.container-fluid {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.container-fluid .row-flex {
+  display: flex;
+  flex-flow: row wrap;
+}
+.container-fluid .row {
+  margin-bottom: 20px;
+}
+.container-fluid .card:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 4px 1px #a1a1a1;
+}
+
+#footer {
+  border-top: 1px solid #222222;
+  left: 0;
+  bottom: 0;
+  /* Нижний угол */
+  padding: 15px;
+  /* Поля вокруг текста */
+  color: #000000;
+  /* Цвет текста */
+  background: ghostwhite;
+  /* Цвет фона */
+  width: 100%;
+  /* Ширина слоя */
+}
+#footer > p {
+  width: 1000px;
+  text-align: left;
+  margin: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
